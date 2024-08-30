@@ -3,6 +3,7 @@ name: manual python workflow
 on:
   workflow_dispatch:
     inputs:
+     name:
       description: 'hello'
       default: 'world'
       required: true
