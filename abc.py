@@ -1,4 +1,6 @@
 import sys
 
 print("hello world")
-print(sys.argv[1])
+
+for i in range(len(sys.argv)):
+    print(sys.argv[i])
